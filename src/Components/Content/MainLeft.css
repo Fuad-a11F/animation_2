@@ -1,0 +1,121 @@
+.main-left__title{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #515151;
+    white-space: nowrap
+}
+
+
+.main-left-text__text {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 70px;
+    margin: 0
+}
+
+.main-left-text__text:nth-child(1) {
+    color: #AF60FF;
+}
+
+.main-left-text__text:nth-child(2) {
+    color: #9748e6
+}
+
+.main-left-text__text:nth-child(3) {
+    color: #6b22b3
+}
+
+.main-left-text__text:nth-child(4) {
+    color: #410979
+}
+
+.main-left-button__row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.main__btn {
+    border: 2px solid #81D1FF;
+    color: #81D1FF;
+    padding: 13px 21px;
+}
+
+.main-left {
+    margin-right: 50px;
+}
+
+.main__btn:hover, .main__btn_2:hover {
+    transition: 300ms;
+    transform: translateY(-7px);
+}   
+
+.main__btn_2 {
+    background-color: #81D1FF;
+    color: white;
+    padding: 13px 21px;
+}
+
+@media (max-width:  992px) {
+    .main-left-text__text {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .main-left-button__row {
+        margin-top: 30px;
+    }
+    .main-left__title {
+        margin: 10px  0;
+    }
+}
+
+@media (max-width:  880px) {
+    .main-left-text__text {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .main__btn_2  {
+        font-size: 16px;
+        padding: 11px 17px;
+    }
+
+    .main-left__title {
+        margin: 10px  0;
+        font-size: 18px;
+    }
+}
+
+@media (max-width:800px) {
+    .main__row {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-left {
+        margin-right: 0px;
+    }
+}
+
+@media (max-width:  480px) {
+    .main-left-text__text {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .main__btn_2  {
+        font-size: 15px;
+        padding: 10px 15px;
+    }
+
+    .main-left__title {
+        font-size: 17px;
+    }
+}
